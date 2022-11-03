@@ -1,7 +1,7 @@
 
-<p align="center">
-  # Meteo-App
-  </p>
+<h1 align="center">
+  Meteo-App
+  </h1>
 <p align="center">
   Here is a meteo application developped in Javascript Vanilla
   </p>
