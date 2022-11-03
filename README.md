@@ -1,3 +1,3 @@
 # Meteo-App
 Here is a meteo application developped in Javascript Vanilla
-![Screenshot](capture.png)
+![alt text](https://github.com/PirateDesBois/Meteo-App/blob/main/capture.png?raw=true)
