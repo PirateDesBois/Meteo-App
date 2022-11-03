@@ -1,0 +1,85 @@
+@import "./_font" 
+@import "./_icon" 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+*
+    font-family: "roboto-regular"
+body
+        background-image: url(../img/background.jpg)
+        background-size: cover
+        background-repeat: no-repeat
+        min-height: 100vh
+.box-container
+        width: 500px
+        height: 500px
+        display: flex
+        flex-wrap: wrap
+        
+.box
+        width: 250px
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        font-size: 3rem
+        color: #fff
+.box:first-of-type
+        border-radius: 25px 0 0 0
+.box:nth-of-type(2)
+        border-radius: 0 25px 0 0
+.box:nth-of-type(3)
+        border-radius: 0 0 0 25px
+.box:nth-of-type(4)
+        border-radius: 0 0 25px 0
+.smallBox
+        width: 125px
+        height: 125px
+        font-size: 2rem
+        padding: 0.5rem 1rem 0rem
+        color: #fff
+
+
+
+.box-container2
+        width: 300px
+        height: 500px
+        border-radius: 50px
+
+.greyBox
+        border-radius: 50px
+        
+.boxWeather
+        width: 400px
+        height: 400px
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        font-size: 3rem
+        border-radius: 50px
+        
+.boxWeatherInfo
+        width: 400px
+        height: 100px
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        font-size: 3rem
+        color: #fff
+        border-radius: 50px !important
+
+.wheatherIcon
+        font-size: 170px !important
+#city
+        background-color: #00cf9150
+#temp
+        background-color: #14918b54
+#humidity
+        background-color: #0066da59
+#wind
+        background-color: #3d445760
+#weather
+        background-color: #0066da59
+#secondGlobalBox
+        background-color: #6487af9a
