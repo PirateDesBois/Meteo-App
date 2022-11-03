@@ -1,4 +1,7 @@
-# Meteo-App
+
+<p align="center">
+  # Meteo-App
+  </p>
 <p align="center">
   Here is a meteo application developped in Javascript Vanilla
   </p>
